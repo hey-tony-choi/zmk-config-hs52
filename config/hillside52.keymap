@@ -41,8 +41,6 @@
 &kp LALT          &kp Z       &kp X      &kp C  &kp V      &kp B     &kp GRAVE                &kp BSLH   &kp N      &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
 &none             &kp C_MUTE  &kp LCTRL         &kp LSHFT  &kp LGUI  &kp BSPC   &mo 3  &mo 4  &kp ENTER  &kp SPACE  &kp RGUI             &kp RALT  &kp DOWN  &kp RIGHT
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         graphite_layer {
@@ -52,10 +50,6 @@
 &kp LALT          &kp Q       &kp X      &kp M  &kp C      &kp V     &kp GRAVE                &kp BSLH   &kp K      &kp P     &kp DOT  &kp MINUS  &kp FSLH  &kp RSHFT
 &none             &kp C_MUTE  &kp LCTRL         &kp LSHFT  &kp LGUI  &kp BSPC   &mo 3  &mo 4  &kp ENTER  &kp SPACE  &kp RGUI           &kp RALT   &kp DOWN  &kp RIGHT
             >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         night_layer {
@@ -65,10 +59,6 @@
 &kp LALT       &kp X       &kp Z      &kp J  &kp D      &kp Q     &kp GRAVE                &kp BSLH   &kp APOS   &kp W     &kp SEMI  &kp MINUS  &kp COMMA  &kp RSHFT
 &none          &kp C_MUTE  &kp LCTRL         &kp LSHFT  &kp LGUI  &kp BSPC   &mo 3  &mo 4  &kp ENTER  &kp SPACE  &kp RGUI            &kp RALT   &kp DOWN   &kp RIGHT
             >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         nav_layer {
@@ -86,8 +76,6 @@
 &trans   &kp F1    &kp F2    &kp F3     &kp F4     &kp F5  &none                  &none   &kp J      &kp N1  &kp N2  &kp N3   &kp FSLH   &kp ASTERISK
 &kp F11  &kp F12   &trans               &trans     &trans  &trans  &trans  &mo 5  &trans  &trans     &kp N0          &kp DOT  &kp TILDE  &kp DOLLAR
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         sym_layer {
@@ -105,8 +93,6 @@
 &kp TILDE             &kp LESS_THAN         &kp PIPE   &kp MINUS  &kp GT      &kp SLASH    &kp C_PP                 &kp F19  &kp AT    &kp N0    &kp N1                &kp N2     &none         &trans
 &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp AMPS              &trans      &trans       &trans    &mo 5  &trans  &trans   &trans    &trans                          &kp GLOBE  &kp C_VOL_DN  &sk C_VOL_UP
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         adj_layer {
@@ -124,8 +110,6 @@
 &bootloader  &sys_reset    &none         &out OUT_USB  &out OUT_BLE  &none         &bt BT_CLR                  &none   &none   &none            &none  &none              &none             &trans
 &none        &none         &trans                      &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans                  &kp RCTRL          &none             &none
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
